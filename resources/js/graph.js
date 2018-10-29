@@ -74,6 +74,13 @@ $(document).ready( function(){
       strokeColor : "#7FF50F",
       fillColor : "#7FF50F",
       data : graphData['2017']
+    },
+
+    {
+      label : "2018",
+      strokeColor : "#CA6F1E",
+      fillColor : "#CA6F1E",
+      data : graphData['2018']
     }
 
   ]
