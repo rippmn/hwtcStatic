@@ -85,6 +85,7 @@ $(document).ready( function(){
 	          "backgroundColor":"#7FF50F"
 	        },
 	        {
+            "label":"2018",
 	          "data":graphData['2018'],
 	          "fill":false,
 	          "borderColor":"#CA6F1E",
