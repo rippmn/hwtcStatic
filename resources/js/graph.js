@@ -90,7 +90,14 @@ $(document).ready( function(){
 	          "fill":false,
 	          "borderColor":"#CA6F1E",
 	          "backgroundColor":"#CA6F1E"
-	        }
+	        },
+			{
+			  "label":"2019",
+				"data":graphData['2019'],
+				"fill":false,
+				"borderColor":"#34918b",
+				"backgroundColor":"#34918b"
+			}
 	      ]},
 	    "options": {
 	      "tooltips": {
