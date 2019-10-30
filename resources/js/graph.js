@@ -1,6 +1,6 @@
-$(document).ready( function(){
+$(document).ready( function(){	
 
-  $.ajax({method: "GET", url: "http://hwtcapi.rippmn.com/totalsByTime", async: false, success: function(graphData){
+  $.ajax({method: "GET", url: "http://localhost:8080/totalsByTime", async: false, success: function(graphData){
 
     var myLineChart;
 
@@ -108,6 +108,6 @@ $(document).ready( function(){
 
       var treatersChart = document.getElementById('MyChart').getContext('2d');
       new Chart(treatersChart,treaters);
-
+	}});
 
   });
