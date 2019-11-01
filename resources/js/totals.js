@@ -1,5 +1,5 @@
   $(document).ready( function(){
-    $.ajax({method: "GET", url: "http://hwtcapi.rippmn.com/totals", async: false, success: function(result){
+    $.ajax({method: "GET", url: "https://hwtcapi.rippmn.com/totals", async: false, success: function(result){
 
       var years = Object.keys(result);
 
