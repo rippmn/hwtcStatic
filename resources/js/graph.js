@@ -1,6 +1,6 @@
 $(document).ready( function(){	
 
-  $.ajax({method: "GET", url: "http://localhost:8080/totalsByTime", async: false, success: function(graphData){
+  $.ajax({method: "GET", url: "https://hwtcapi.rippmn.com/totalsByTime", async: false, success: function(graphData){
 
     var myLineChart;
 
