@@ -80,7 +80,7 @@ $(document).ready( function(){
 	          "label":"2017",
 	          "data":graphData['2017'],
 	          "fill":false,
-	          "label":"2018",
+	          "label":"2017",
 	          "borderColor":"#7FF50F",
 	          "backgroundColor":"#7FF50F"
 	        },
