@@ -1,3 +1,4 @@
-FROM nginx
-COPY . /usr/share/nginx/html
+FROM gcr.io/<<PROJECT>>/nginx-port
+COPY . /var/www/html
+
 
