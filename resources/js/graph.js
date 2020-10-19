@@ -1,4 +1,4 @@
-$(document).ready( function(){	
+$(document).ready( function(){
 
   $.ajax({method: "GET", url: "https://hwtcapi.rippmn.com/totalsByTime", async: false, success: function(graphData){
 
@@ -91,13 +91,20 @@ $(document).ready( function(){
 	          "borderColor":"#CA6F1E",
 	          "backgroundColor":"#CA6F1E"
 	        },
-			{
-			  "label":"2019",
-				"data":graphData['2019'],
-				"fill":false,
-				"borderColor":"#34918b",
-				"backgroundColor":"#34918b"
-			}
+    			{
+    			  "label":"2019",
+    				"data":graphData['2019'],
+    				"fill":false,
+    				"borderColor":"#34918b",
+    				"backgroundColor":"#34918b"
+    			},
+          {
+            "label":"2020",
+            "data":graphData['2020'],
+            "fill":false,
+            "borderColor":"#7ba4e9",
+            "backgroundColor":"#7ba4e9"
+          }
 	      ]},
 	    "options": {
 	      "tooltips": {
